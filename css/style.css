@@ -1,0 +1,85 @@
+/* This exercice is based on Bootstrap v4 */
+/* Please have a look into the documentation where you will find everything you'll need (and more) */
+/* The primary color is teal */
+/* The secondary color is indianred */
+/* Author: Xavier CADEAU */
+@import 'https://fonts.googleapis.com/css?family=Barlow+Condensed|Noto+Serif';
+/* ------------------------------------------------
+Custom reset
+-------------------------------------------------*/
+h1, h2, h3, h4, h5, h6, ul, ol {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+/* ------------------------------------------------
+Global
+-------------------------------------------------*/
+html {
+  font-size: 100%;
+}
+body {
+  font: 1rem/1 Tahoma, sans-serif;
+}
+.teal {
+  background-color: teal;
+}
+.button{
+  background-color: indianred;
+  color: white;
+  padding: 10px;
+}
+.header{
+  background: teal;
+}
+.header h1{
+  font-size: 2.5rem;
+}
+
+.header .nav-pills .nav-link.active{
+  background-color: indianred;
+}
+
+.arial li a{
+  color:teal;
+}
+.section1{
+  background-image: url('../images/photo-6.jpg');
+}
+.section1 .fond{
+  background-color: rgba(43, 42, 42, 0.7);
+  
+}
+
+.section1 h2{
+  text-transform: uppercase;
+}
+.section2 .card-title{
+  color:teal;
+}
+.section3{
+  background: linear-gradient(rgb(226, 224, 224), white);
+
+}
+.section3 .citation{
+  background: linear-gradient(45deg, rgb(119, 45, 45), indianred);
+}
+.section3 .progression{
+  background: linear-gradient(rgb(255, 255, 255), transparent);
+
+}
+
+/* --------------------------------------------- */
