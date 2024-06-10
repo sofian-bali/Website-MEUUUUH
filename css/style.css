@@ -3,7 +3,7 @@
 /* The primary color is teal */
 /* The secondary color is indianred */
 /* Author: Xavier CADEAU */
-@import 'https://fonts.googleapis.com/css?family=Barlow+Condensed|Noto+Serif';
+
 /* ------------------------------------------------
 Custom reset
 -------------------------------------------------*/
@@ -25,61 +25,35 @@ figure {
   margin: 0;
 }
 
-/* ------------------------------------------------
-Global
--------------------------------------------------*/
+
 html {
   font-size: 100%;
 }
 body {
-  font: 1rem/1 Tahoma, sans-serif;
+  color: #486284;
 }
-.teal {
-  background-color: teal;
+p{
+  color: #8CA2C0;
 }
-.button{
-  background-color: indianred;
+.nav-pills .nav-link{
+  color: #486284;
+}
+
+.nav-pills .nav-link.active{
   color: white;
-  padding: 10px;
-}
-.header{
-  background: teal;
-}
-.header h1{
-  font-size: 2.5rem;
-}
-
-.header .nav-pills .nav-link.active{
-  background-color: indianred;
-}
-
-.arial li a{
-  color:teal;
-}
-.section1{
-  background-image: url('../images/photo-6.jpg');
-}
-.section1 .fond{
-  background-color: rgba(43, 42, 42, 0.7);
-  
-}
-
-.section1 h2{
-  text-transform: uppercase;
-}
-.section2 .card-title{
-  color:teal;
-}
-.section3{
-  background: linear-gradient(rgb(226, 224, 224), white);
+  background-color: #486284;
 
 }
-.section3 .citation{
-  background: linear-gradient(45deg, rgb(119, 45, 45), indianred);
+.btn{
+  background-color: #486284;
+  color: white;
 }
-.section3 .progression{
-  background: linear-gradient(rgb(255, 255, 255), transparent);
-
+.btn.btn-outline{
+  border: 1px solid #486284;
+  color: #486284;
+  background-color: white;
+}
+.star{
+  color: #486284;
 }
 
-/* --------------------------------------------- */
