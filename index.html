@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header class="d-flex justify-content-between align-items-center px-5 py-3 border-bottom"">
+    <header class="d-flex justify-content-between align-items-center px-5 py-3 border-bottom">
         <div style="height: 100px">
             <img class="h-100" src="assets/logo.png" alt="Logo MEUUUH">
         </div>
@@ -37,6 +37,7 @@
     </header>
     <main class="container">
 
+        <!-- Hero section -->
         <section class="d-flex justify-content-between align-items-center py-7 px-4">
             <div class="d-flex flex-column gap-4 col-6">
                 <div class="d-flex flex-column gap-1">
@@ -49,10 +50,11 @@
                 </div>
             </div>
             <picture class="col-5">
-                <img src="assets/hero-img.png" alt="Image de la boutteille MEUUUH" class="img-fluid rounded">
+                <img src="assets/hero-img.png" alt="Image de la boutteille MEUUUH" class="img-fluid rounded-4">
             </picture>
         </section>
 
+        <!-- Ferme section -->
         <section class="d-flex flex-column gap-5 py-7 px-4">
             <div class="d-flex flex-column gap-4">
                 <h2 class="fs-1 custom-font">Une ferme unique au cœur de nos produits</h2>
@@ -62,36 +64,16 @@
                 </div>
             </div>
             <picture class="w-100">
-                <img src="assets/farm-img.png" alt="Placeholder" class="img-fluid rounded">
+                <img src="assets/farm-img.png" alt="Placeholder" class="img-fluid rounded-4">
             </picture>
         </section>
 
+        <!-- Slider section -->
         <section class="py-7 px-4 d-flex flex-column gap-5">
             <div class="d-flex flex-column gap-4">
                 <h2 class="fs-1 custom-font">Notre Lait Meuuh</h2>
                 <p>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
             </div>
-            <!-- <div class="d-flex align-items-center gap-4 mx-auto" data-bs-touch="false">
-                <div>
-                    <img src="assets/arrow.png" alt="" style="height: 30px">
-                </div>
-
-                <div class="d-flex align-items-center justify-content-center gap-4">
-                    <div class="w-30 col-3">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                    </div>
-                    <div class="w-30 col-3">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                    </div>
-                    <div class="w-30 col-3">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                    </div>
-                </div>
-
-                <div>
-                    <img src="assets/arrow.png" alt="" style="height: 40px; transform: rotate(180deg);">
-                </div>
-            </div> -->
             <div class="d-flex align-items-center gap-4 mx-auto slider-container">
                 <div class="m-3">
                     <img src="assets/arrow.png" alt="" class="arrow" id="prev">
@@ -99,13 +81,13 @@
         
                 <div class="d-flex align-items-center justify-content-center gap-4 slider overflow-hidden">
                     <div class="w-30 col-3 slider-item">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded-3" alt="...">
                     </div>
                     <div class="w-30 col-3 slider-item">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded-3" alt="...">
                     </div>
                     <div class="w-30 col-3 slider-item">
-                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded-3" alt="...">
                     </div>
                 </div>
         
@@ -114,53 +96,142 @@
                 </div>
             </div>
         </section>
-        <section class="d-flex align-items-center justify-content-around">
-            <div class="col-md-3">
-                <h2 class="fw-bold">Qualité</h2>
-                <p class="fw-light mt-3">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+
+        <!-- Engagement section -->
+        <section class="py-7 px-4 d-flex gap-5">
+            <div class="d-flex flex-column gap-4 col-7">
+                <h2 class="fs-1 custom-font">Nos Engagements : Qualité et Authenticité</h2>
+                <p class="fw-light">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <div class="width-100">
+                <img src="assets/milk-quality.jpg" alt="Placeholder" class="img-fluid rounded-4" style="height: 200px">
+            </div>
+        </section>
+
+        <!-- Avis section -->
+        <section class="py-7 px-4 d-flex flex-column gap-5">
+            <div class="d-flex gap-4 justify-content-around mx-auto">
+                <div class="d-flex flex-column gap-3 rounded-4 border p-4">
+                    <h3>24+</h3>
+                    <p class="fw-light">Worem ipsum dolor sit amet</p>
+                </div>
+
+                <div class="d-flex flex-column gap-3 rounded-4 border p-4">
+                    <h3>17M</h3>
+                    <p class="fw-light">Worem ipsum dolor sit amet</p>
+                </div>
+
+                <div class="d-flex flex-column gap-3 rounded-4 border p-4">
+                    <h3>+95%</h3>
+                    <p class="fw-light">Worem ipsum dolor sit amet</p>
+                </div>
+
+                <div class="d-flex flex-column gap-3 rounded-4 border p-4">
+                    <h3>1902</h3>
+                    <p class="fw-light">Worem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="d-flex gap-4 justify-content-around mx-auto">
+                <div class="d-flex gap-3 rounded-4 border p-4">
+                    <img src="assets/avatar.png" alt="" style="height: 40px;">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex gap-1">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                        </div>
+                        <p class="fw-light">“Worem ipsum dolor sit amet”</p>
+                        <h6>Jack Smith</h6>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3 rounded-4 border p-4">
+                    <img src="assets/avatar.png" alt="" style="height: 40px;">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex gap-1">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                        </div>
+                        <p class="fw-light">“Worem ipsum dolor sit amet”</p>
+                        <h6>Jack Smith</h6>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-3 rounded-4 border p-4">
+                    <img src="assets/avatar.png" alt="" style="height: 40px;">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex gap-1">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                            <img src="assets/stars.png" alt="" style="height: 20px;">
+                        </div>
+                        <p class="fw-light">“Worem ipsum dolor sit amet”</p>
+                        <h6>Jack Smith</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Réassurance section -->
+        <section class="py-7 px-4 d-flex gap-4">
+            <div class="d-flex flex-column gap-4 col-3">
+                <h2 class="fs-1 custom-font">Qualité</h2>
+                <p class="fw-light">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             </div>
 
-                <div class="row col-md-8">
-                <div class="col-md-4 rounded-3">
-                        <img src="assets/logo.png" alt="Placeholder" class="img-fluid">
-                </div>
-                <div class="col-md-4 rounded-3">
-                     <img src="assets/milk-quality.jpg" alt="Placeholder" class="img-fluid">
-                </div>
-                <div class="col-md-4 rounded-3">
-                        <img src="assets/milk-quality.jpg" alt="Placeholder" class="img-fluid">
-                </div>
-            </div>
+            <img src="assets/rea-1.png" alt="" class="col-3 rounded-4">
+            <img src="assets/rea-2.png" alt="" class="col-3 rounded-4">
+            <img src="assets/rea-3.png" alt="" class="col-3 rounded-4">
         </section>
-        <section class="my-5 d-flex align-items-center justify-content-around">
-            <div class="container col-md-3">
-                <h2 class="fw-bold">Prêt à savourer le lait Meuuh ?</h2>
-                <div class="row mt-4">
-                        <ul class="list-styled">
-                            <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet</li>
-                            <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet</li>
-                            <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet</li>
-                        </ul>
+
+        <!-- CTA section -->
+        <section class="py-7 px-4 d-flex gap-4">
+            <div class="d-flex flex-column gap-4 w-100">
+                <h2 class="fs-1 custom-font">Prêt à savourer le lait Meuuh ?</h2>
+                <div class="d-flex flex-column gap-1">
+                    <div class="d-flex gap-1">
+                        <img src="assets/check.png" alt="" style="height: 24px;">
+                        <p class="fw-light">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <button class="btn btn-primary rounded-pill w-10 mt-4 ">Commander</button>
-            </div>
-                <div  class=" col-md-9 d-flex justify-content-center">
-                        <img src="assets/milk-img.png" alt="Placeholder" class="p-5 img-fluid w-50">
+
+                    <div class="d-flex gap-1">
+                        <img src="assets/check.png" alt="" style="height: 24px;">
+                        <p class="fw-light">Lorem ipsum dolor sit amet</p>
+                    </div>
+                   
+                    <div class="d-flex gap-1">
+                        <img src="assets/check.png" alt="" style="height: 24px;">
+                        <p class="fw-light">Lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
+                <div>
+                    <button class="btn rounded-pill custom-font">Commander</button>
+                </div>
             </div>
+            <img src="assets/cta.png" alt="Placeholder" class="img-fluid col-7 rounded-4">
         </section>
     </main>
-    <footer class="py-3">
-        <div class="container d-flex align-items-end justify-content-between">
-            <div class="logo col-md-4">
-                <img class="w-25" src="assets/logo.png" alt="Logo MEUUH">
-            </div>
-            <div class="links col-md-5 ">
-                <p class="mt-3 ">Politique de confidentialité | Termes et conditions | Politique des cookies | Contact</p>
+
+    <footer class="py-7 px-4 border-top">
+        <div class="container d-flex justify-content-between align-items-end">
+            <img src="assets/logo.png" alt="Logo MEUUH" style="height: 150px;">
+
+            <div class="d-flex gap-4">
+                <p class="fw-light">Politique de confidentialité</p>
+                <p class="fw-light">Termes et conditions</p>
+                <p class="fw-light">Politique des cookies</p>
+                <p class="fw-light">Contact</p>
             </div>
         </div>
     </footer>
+
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             const slider = document.querySelector('.slider');
