@@ -6,114 +6,112 @@
     <title>MEUUH!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
-<body class="m-4">
-    <header class="d-flex justify-content-between align-items-center mx-4">
-                <div class="p-3">
-                    <img class="w-50" src="assets/logo.png" alt="Logo MEUUH">            
-                </div>
-                <div class="col-md-10 d-flex justify-content-end">
-                    <ul class="nav nav-pills nav-justifiedcol-md-8 d-flex justify-content-evenly">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nos produits</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Notre ferme</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Mon compte</a>
-                        </li>
-                        <li>
-                            <a class="nav-link active rounded-pill" href="#">Panier</a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <header class="d-flex justify-content-between align-items-center px-5 py-3 border-bottom"">
+        <div style="height: 100px">
+            <img class="h-100" src="assets/logo.png" alt="Logo MEUUUH">
+        </div>
+        <div>
+            <ul class="nav nav-pills d-flex gap-4 justify-content-between">
+                <li>
+                    <a class="nav-link fs-5" href="#">Nos produits</a>
+                </li>
+                <li>
+                    <a class="nav-link fs-5" href="#">Notre ferme</a>
+                </li>
+                <li>
+                    <a class="nav-link fs-5" href="#">Blog</a>
+                </li>
+                <li>
+                    <a class="nav-link fs-5" href="#">Mon compte</a>
+                </li>
+                <li>
+                    <a class="nav-link active rounded-pill fs-5" href="#">Panier</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <main class="px-4">
-        <section class="d-flex justify-content-between align-items-center my-5 gap-3">
-            <div class="col-md-6">
-                <h1 class="fw-bold">Redécouvrez le goût authentique du lait</h1>
-                <p class="mt-4 fw-light"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <div class="mt-4">
-                    <button class="btn rounded-pill me-2">Commander</button>
-                    <button class="btn btn-outline rounded-pill">Explorer</button>
+    <main class="container">
+
+        <section class="d-flex justify-content-between align-items-center py-7 px-4">
+            <div class="d-flex flex-column gap-4 col-6">
+                <div class="d-flex flex-column gap-1">
+                    <h1 class="fs-0 custom-font">Redécouvrez le goût authentique du lait</h1>
+                    <p class="fw-light m-0">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+                <div class="d-flex gap-4">
+                    <button class="btn rounded-pill custom-font">Commander</button>
+                    <button class="btn btn-outline rounded-pill custom-font">Explorer</button>
                 </div>
             </div>
-            <div class="g-col-md-6 d-flex justify-content-center align-items-center">
-                <img src="assets/hero-img.png" alt="Placeholder" class="img-fluid rounded">
-            </div>
+            <picture class="col-5">
+                <img src="assets/hero-img.png" alt="Image de la boutteille MEUUUH" class="img-fluid rounded">
+            </picture>
+        </section>
 
-        </section>
-        <section class="my-5">
-            <h2 class="fw-bold">Une ferme unique au cœur de nos produits</h2>
-            <div class=" d-flex justify-content-between mt-5">
-                <p class="fw-light col-md-5">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
-                <p class="fw-light col-md-5">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
+        <section class="d-flex flex-column gap-5 py-7 px-4">
+            <div class="d-flex flex-column gap-4">
+                <h2 class="fs-1 custom-font">Une ferme unique au cœur de nos produits</h2>
+                <div class=" d-flex justify-content-between gap-5">
+                    <p class="fw-light">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
+                    <p class="fw-light">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
+                </div>
             </div>
-            <div class="w-100 m-auto">
+            <picture class="w-100">
                 <img src="assets/farm-img.png" alt="Placeholder" class="img-fluid rounded">
-            </div>
+            </picture>
         </section>
-        <section class="my-5">
-            <h2>Notre Lait Meuuh</h2>
-            <p>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
-            <div class="d-flex justify-content-center w-100 position-relative">
-                <div id="carouselExample" class="carousel slide w-75">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                                <div class="col-4">
-                                    <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
-                                </div>
-                            </div>
-                        </div>
+
+        <section class="py-7 px-4 d-flex flex-column gap-5">
+            <div class="d-flex flex-column gap-4">
+                <h2 class="fs-1 custom-font">Notre Lait Meuuh</h2>
+                <p>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+            </div>
+            <!-- <div class="d-flex align-items-center gap-4 mx-auto" data-bs-touch="false">
+                <div>
+                    <img src="assets/arrow.png" alt="" style="height: 30px">
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center gap-4">
+                    <div class="w-30 col-3">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="w-30 col-3">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="w-30 col-3">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <div>
+                    <img src="assets/arrow.png" alt="" style="height: 40px; transform: rotate(180deg);">
+                </div>
+            </div> -->
+            <div class="d-flex align-items-center gap-4 mx-auto slider-container">
+                <div class="m-3">
+                    <img src="assets/arrow.png" alt="" class="arrow" id="prev">
+                </div>
+        
+                <div class="d-flex align-items-center justify-content-center gap-4 slider overflow-hidden">
+                    <div class="w-30 col-3 slider-item">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="w-30 col-3 slider-item">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                    </div>
+                    <div class="w-30 col-3 slider-item">
+                        <img src="assets/item-img.png" class="d-block w-100 rounded" alt="...">
+                    </div>
+                </div>
+        
+                <div class="m-3">
+                    <img src="assets/arrow.png" alt="" class="arrow" style="transform: rotate(180deg);" id="next">
+                </div>
             </div>
         </section>
         <section class="d-flex align-items-center justify-content-around">
@@ -163,6 +161,30 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const slider = document.querySelector('.slider');
+            const nextButton = document.getElementById('next');
+            const prevButton = document.getElementById('prev');
+            let currentIndex = 0;
+            const itemsToShow = 3;
+            const totalItems = slider.children.length;
 
+            nextButton.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % totalItems;
+                updateSlider();
+            });
+
+            prevButton.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+                updateSlider();
+            });
+
+            function updateSlider() {
+                const offset = -currentIndex * (100 / itemsToShow);
+                slider.style.transform = `translateX(${offset}%)`;
+            }
+        });
+    </script>
 </body>
 </html>

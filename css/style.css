@@ -1,16 +1,22 @@
-/* This exercice is based on Bootstrap v4 */
-/* Please have a look into the documentation where you will find everything you'll need (and more) */
-/* The primary color is teal */
-/* The secondary color is indianred */
-/* Author: Xavier CADEAU */
-
 /* ------------------------------------------------
 Custom reset
 -------------------------------------------------*/
-h1, h2, h3, h4, h5, h6, ul, ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
   padding: 0;
   margin: 0;
   font-weight: normal;
+}
+
+.custom-font {
+  font-family: 'Poetsen One', sans-serif;
 }
 
 li {
@@ -25,42 +31,75 @@ figure {
   margin: 0;
 }
 
-
 html {
   font-size: 100%;
 }
+
 body {
   color: #486284;
 }
-p{
-  color: #8CA2C0;
+
+p {
+  color: #8ca2c0;
 }
-.nav-pills .nav-link{
+
+.nav-pills .nav-link {
   color: #486284;
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
   color: white;
   background-color: #486284;
+}
 
-}
-.btn{
+.btn {
   background-color: #486284;
   color: white;
 }
-.btn.btn-outline{
+
+.btn.btn-outline {
   border: 1px solid #486284;
   color: #486284;
   background-color: white;
 }
-.star{
+
+.star {
   color: #486284;
-<<<<<<< HEAD
 }
 
-footer p{
+footer p {
   font-size: 12px;
 }
-=======
+
+/* --- Ajout de rêgles Bootstrap --- */
+
+.fs-0 {
+  font-size: 64px;
 }
->>>>>>> 5dfe17014249630ef0dee934d6f10407de5cf59d
+
+.py-7 {
+  padding: 90px 0;
+}
+
+
+/* --- Carousel --- */
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slider-item {
+  min-width: 30%;
+  box-sizing: border-box;
+}
+
+.arrow {
+  height: 30px;
+  cursor: pointer;
+}
